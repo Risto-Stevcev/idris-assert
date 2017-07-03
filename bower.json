@@ -1,0 +1,24 @@
+{
+  "name": "idris-assert",
+  "authors": [
+    "Risto Stevcev <risto1@gmail.com>"
+  ],
+  "description": "A simple idris assertion library",
+  "main": "./Test/Assert.idr",
+  "keywords": [
+    "idris",
+    "assert"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Risto-Stevcev/idris-assert",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "idris-crayons": "^0.1.0"
+  }
+}

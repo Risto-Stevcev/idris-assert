@@ -1,0 +1,18 @@
+package idris_assert
+
+brief = "A simple idris assertion library"
+version = 0.1.0
+readme = ./README.md
+license = "MIT"
+author = "Risto Stevcev"
+maintainer = "Risto Stevcev"
+homepage = https://github.com/Risto-Stevcev/idris-assert
+sourceloc = https://github.com/Risto-Stevcev/idris-assert
+bugtracker = https://github.com/Risto-Stevcev/idris-assert/issues
+
+modules = Test.Assert
+        , Test.Example
+
+tests = Test.Example.main
+
+opts = "-i bower_components/idris-crayons"
