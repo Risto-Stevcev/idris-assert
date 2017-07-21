@@ -16,3 +16,5 @@ modules = Test.Assert
 tests = Test.Example.main
 
 opts = "-i bower_components/idris-crayons"
+
+pkgs = idris_crayons
